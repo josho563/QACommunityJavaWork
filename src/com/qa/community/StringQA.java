@@ -16,13 +16,12 @@ public class StringQA {
 		System.out.println(myStr3.indexOf("I")); // does it have letter
 		System.out.println(myStr.contains("so")); // contains value
 		System.out.println(myStr.substring(1, 4)); // Will print values but only up to 4 not including 4
-		System.out.println(myStr.equalIgnoreCase(str)); //
+		System.out.println(myStr.equalIgnoreCase(myStr)); //
 		System.out.println(myStr.replace("String", "I like cheese")); // Changes Element
 		
 		for (int i =0; i<myStr.length(); i++) {
 			System.out.println(myStr.charAt(i));
 		}
 		}
-	}
-}
+
 }
